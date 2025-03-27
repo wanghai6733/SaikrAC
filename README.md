@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### 4. 配置 Deepseek API  
 - 前往 [Deepseek 平台](https://platform.deepseek.com/api_keys) 申请 API Key。  
-- 将申请到的 API Key 填写到本地 `config.yaml` 文件中的 `OPENAI_API_KEY` 字段，如：  
+- 将申请到的 API Key 填写到本地 `config.yaml.sample`(操作完后将.sample后缀去除) 文件中的 `OPENAI_API_KEY` 字段，如：  
 
   ```yaml
   OPENAI_API_KEY: "your_api_key"
