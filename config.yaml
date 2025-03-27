@@ -1,0 +1,3 @@
+BASE_URL: "https://api.deepseek.com"
+OPENAI_API_KEY: "your_api_key"
+PROBLEM_NUM: 10
