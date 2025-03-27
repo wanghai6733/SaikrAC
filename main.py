@@ -142,7 +142,7 @@ else :
 
 
 # 用户自己关闭浏览器，才结束程序
-print("请手动关闭浏览器以结束程序。")
+print("程序结束，请手动关闭浏览器以结束程序。")
 while len(driver.window_handles) > 0:    
     pass
 driver.quit()
