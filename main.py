@@ -17,6 +17,7 @@ edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Edge(service=EdgeService("edgedriver_win64/msedgedriver.exe"), options=edge_options)
 driver.implicitly_wait(0.1)
 
+
 # 加载cookies
 def load_cookies(driver, cookies_file):
     try:
