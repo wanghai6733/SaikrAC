@@ -40,6 +40,7 @@ class robot:
             )
             except Exception as e:
                 time.sleep(1)
+                print(f"error:{e}")
                 continue
             break        
 
