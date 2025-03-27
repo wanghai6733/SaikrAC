@@ -1,6 +1,9 @@
-# 强制将 .ipynb 文件识别为 Python
-*.ipynb linguist-language=Python
-
-# 忽略某些文件的语言统计
-docs/* linguist-documentation
-static/* linguist-vendored
+*.md linguist-language=Python 
+*.yml linguist-language=Python 
+*.html linguist-language=Python 
+*.js linguist-language=Python 
+*.xml linguist-language=Python
+*.css linguist-language=Python 
+*.sql linguist-language=Python
+*.uml linguist-language=Python 
+*.cmd linguist-language=Python 
