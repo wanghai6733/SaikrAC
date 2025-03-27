@@ -1,0 +1,6 @@
+# 强制将 .ipynb 文件识别为 Python
+*.ipynb linguist-language=Python
+
+# 忽略某些文件的语言统计
+docs/* linguist-documentation
+static/* linguist-vendored
